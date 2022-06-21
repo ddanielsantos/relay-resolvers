@@ -1,0 +1,17 @@
+type Query {
+  allLocations: [Location]
+}
+
+type Location {
+  """The ID of an object"""
+  id: ID!
+
+  """Location's city"""
+  city: String!
+
+  """Location's city"""
+  state: String!
+
+  """Location's city"""
+  country: String!
+}
