@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <h1>Ola relay</h1>
+      <h1>Hello Relay</h1>
       <div>
         {
           allLocations?.map(location => {
